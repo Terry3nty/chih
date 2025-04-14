@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --bg: Teal;
+    --bg: #004d4d;
     --text-color: #ffffff;
     --highlight-color: #ffd700;
     --primary-color:  linear-gradient(to right, #ff5733, #ff8d1a);
 }
 
-body.bright {
-    --bg: linear-gradient(135deg, #e0f7fa, #ffffff); /* Soft aqua to white */
-    --text-color: #222222;                         /* Dark text for readability */
-    --highlight-color: #ffb700;                    /* Rich golden highlight */
-    --primary-color: linear-gradient(to right, #ff7e5f, #feb47b); /* Warm, elegant orange-pink */
+body.light-mode{
+    --bg: #b0f4b0; /* Light teal background for bright mode */
+    --text-color: #333333; /* Dark text for readability */
+    --highlight-color: orange; /* Rich golden highlight */
+    --primary-color: linear-gradient(to right, #ff9a8b, #ffb28e);
 }
 
 *{
