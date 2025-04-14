@@ -27,7 +27,7 @@ body{
     height: 100vh;
     color: var(--text-color);
     font-family: 'Roboto', sans-serif;
-    transition: ease-in-out 2s ;
+    transition: ease-in-out 2ms ;
 }
 
 .container{
@@ -77,4 +77,52 @@ details{
     padding: 1.2rem;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(000, 000, 000, 0.5);
+}
+
+details a:hover {
+    color: var(--highlight-color);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        margin: 1rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
 }
